@@ -4,9 +4,9 @@ import Wheel from './Wheel.js';
 
 // TODO: The Motorbike class should extend the Vehicle class
 class Motorbike extends Vehicle {
-  // TODO: Declare properties of the Motorbike class
-  // TODO: The properties should include vin, color, make, model, year, weight, top speed, and wheels
-  // TODO: The types should be as follows: vin (string), color (string), make (string), model (string), year (number), weight (number), topSpeed (number), wheels (Wheel[])
+  // Declare properties of the Motorbike class
+  // The properties should include vin, color, make, model, year, weight, top speed, and wheels
+  // The types should be as follows: vin (string), color (string), make (string), model (string), year (number), weight (number), topSpeed (number), wheels (Wheel[])
 vin: string;
 color: string;
 make: string;
@@ -49,8 +49,8 @@ wheels: Wheel[];
   }
   
 
-  // TODO: Implement the wheelie method
-  // TODO: The method should log the message "Motorbike [make] [model] is doing a wheelie!"
+  // Implement the wheelie method
+  // The method logs the message "Motorbike [make] [model] is doing a wheelie!"
   wheelie(): void {
     console.log(`Motorbike ${this.make} ${this.model} is doing a wheelie!`);
   }
