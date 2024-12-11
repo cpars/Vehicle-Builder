@@ -46,21 +46,26 @@ Interactive Menu: A user-friendly menu system guides the user through all operat
 
 ## File Structure
 
-vehicle-builder/
--- index.js          # Main application file
-├── vehicle.js        # Vehicle class and subclasses
-├── package.json      # Project metadata and dependencies
-└── README.md         # Project documentation
+Vehicle-Builder/
+
+| FileName   | Interfaces    | Classes    |
+|-------------|-------------|-------------|
+| index.ts      | AbleToTow   | Car         |
+| package.json | Driveable   | Motorbike   |
+| tsconfig.json      |             | Truck       |
+| Item 4      |             | Vehicle     |
+|             |             |  Wheel           |
+|             |             |  Cli             |
 
 ## Technologies Used
 
-  - Node.js: For the runtime environment.
+  - npm: For the runtime environment.
 
   - Inquirer.js: For handling interactive user prompts in the command line.
 
 ## Walkthrough Video
 
-A video walkthrough demonstrating the application’s functionality is available here.
+A video walkthrough demonstrating the application’s functionality is available [here]().
 
 ## Future Enhancements
 
