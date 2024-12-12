@@ -65,7 +65,7 @@ Vehicle-Builder/
 
 ## Walkthrough Video
 
-A video walkthrough demonstrating the application’s functionality is available [here]().
+A video walkthrough demonstrating the application’s functionality is available [here](https://watch.screencastify.com/v/a8dzX94wZ4gr7s4QcS2k).
 
 ## Future Enhancements
 
